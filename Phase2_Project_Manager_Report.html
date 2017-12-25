@@ -1,0 +1,268 @@
+
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Phase 2 Project Manager Report for Team XYZ</title>
+    <style>
+        body {
+            font-family: Roboto;
+        }
+        
+        div.answer {
+            border: solid 1px black;
+            width: 100%;
+            min-height: 15em;
+        }
+        
+        div.light {
+            background-color: lightgray;
+        }
+        
+        div.dark {
+            background-color: darkgray;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSE 216 Project Manager Report: Phase 2, Team Ravenclaw</h1>
+    <h3>List your team members, providing name, email, and role for this project.</h3>
+    <div class="answer">
+    	<table style="border:1">
+    		<tr>
+    			<th>Name</th>
+    			<th>Email</th>
+    			<th>Role</th>
+    		</tr>
+    		<tr>
+    			<td>Derek Huber</td>
+    			<td>djh219</td>
+    			<td>Tester</td>
+    		</tr>
+    		<tr>
+    			<td>Matt Wong</td>
+    			<td>myw219</td>
+    			<td>Project Manager</td>
+    		</tr>
+    		<tr>
+    			<td>Will Silverstein</td>
+    			<td>wes219</td>
+    			<td>Android</td>
+    		</tr>
+    		<tr>
+    			<td>Evan Vomund</td>
+    			<td>erv318</td>
+    			<td>Web</td>
+    		</tr>
+    		<tr>
+    			<td>Ben Cohen</td>
+    			<td>bec617</td>
+    			<td>Backend</td>
+    		</tr>
+    	</table>
+
+			</div>
+
+    <div class="light">
+        <h2>Back-End Server</h2>
+
+        <h3>Describe the REST API endpoints that your team agreed to implement. If this deviates significantly from class discussion,
+            explain why.</h3>
+        <div class="answer">The REST API endpoints that my team agreed to implement is the same API as the one 
+		discussed in class and continues with the previous API as phase1. The new REST API now includes
+		a post route for username and password authentication, a post route for creating a message, a post route for 
+		upvoting and down voting a message or comment</div> 
+
+        <h3>Describe the Data Model that your team agreed to implement. If this deviates significantly from class discussion,
+            explain why.</h3>
+        <div class="answer">Again, we used teh same data model that was agreed in class. Here we create a token for authentication that 
+		checks if the user is in the database and each route checks for that token without having the user to input his/her 
+		password everytime the webpage access another route</div>
+
+        <h3>Is the back-end code appropriately organized into files / classes / packages?</h3>
+        <div class="answer">The back-end code is appropriately organized into files that is approapriately named 
+		so that later users can understand what that file is about.</div>
+
+        <h3>Are the dependencies in the pom.xml file appropriate? Were there any unexpected dependencies added to the program?</h3>
+        <div class="answer">All the dependencies in the pom.xml file was expected, nothing was suddenly added that 
+		seemed out of nowhere.</div>
+
+        <h3>What was the biggest issue that came up in code review of the back-end server?</h3>
+        <div class="answer">The biggest issure that came up in the code review, was that there were still errors 
+		when connecting to the database.</div>
+
+        <h3>What technical debt do you see in the current back-end server
+         implementation?</h3>
+        <div class="answer">The technical debt I see in the current back-end server is that we still don't know how to 
+		connect our program to the database along with the other roles. This could blow up in our faces unless we find a way
+		to fix this problem</div>
+        
+        <h3>Describe any refactoring that was performed to reduce technical
+        debt from the last phase</h3>
+        <div class="answer">Somethings that were done to reduce technical debt was to improve all the back-end 
+		routes so that it can be easily understood and can could help with fixing the connection to the database
+		the in the future</div>
+    </div>
+
+    <div class="dark">
+        <h2>Web Front-End</h2>
+
+        <h3>Were there any difficulties with using Bootstrap?</h3>
+        <div class="answer">I found bootstrap very easy to implement and use. It is almost too simple. 
+Sometimes I felt it didn't provide quite enough room for creativity and
+custimizability but this made it very easy to use.</div>
+
+        <h3>What patterns are employed in the web front-end to make the code
+        more maintainable?</h3>
+        <div class="answer">By seperating the .hb format files from the typescript, and the HTML files, 
+the code was seperated well. A change to something like the nav bar carries
+across the views with ease and any changes within each view do not effect 
+the other views.</div>
+
+        <h3>How was the user interface designed? Why did the team settle on the design that is present in the code?</h3>
+        <div class="answer">The design we chose reflected a similar format to the android app and is based
+around simplicity. We found that using things like pop up windows where cleaner
+and required less code than creating a new view. For example, when you click
+on a author of a coment, their profile comes up as a modal. This keeps all the
+actions within the same read class.</div>
+
+        <h3>Is the web front-end appropriately organized into files / classes / packages?</h3>
+        <div class="answer">The web front end is approapriately organized, reflecting the effective model
+used in the phase 2 web tutorial. Any changes made to specific classes remain
+local, and any changes to things like the nav bar are universal.</div>
+
+        <h3>Are the dependencies in the package.json file appropriate? Were there any unexpected dependencies added to the program?</h3>
+        <div class="answer">I tried to limmit the amount of dependencies, however I did have to add a few 
+dependencies for bootstrap, such as creating editable text.
+</div>
+
+        <h3>What was the biggest issue that came up in code review of the web front-end?</h3>
+        <div class="answer">By far the bigest issue with the web front end was connecting to the database. 
+At the time of this interview, I have yet to connect. This was caused by a 
+lack of communication between myself and Ben, who did the backend. He was on
+Spring Break this past week, and I failed to get far enough in the web front 
+end to work with him on combining the two, despite him making me well aware 
+that he would be unable to work over break. I hope to make up for this when 
+I return from break to support the next web developer</div>
+
+        <h3>What technical debt do you see in the current web front-end implementation?</h3>
+        <div class="answer">The bigest technical debt is in the database connection. Even if I do get it 
+working soon, it will be rushed and could have some flaws. I am leaving good
+comments to declare where these shortfalls occor and i will work with the next
+web developer to make up for this. It would be good for me to do backend next 
+so I work closer with whoever this is</div>
+    </div>
+
+    <div class="light">
+        <h2>Android App</h2>
+
+        <h3>What difficulties arose when using Volley?</h3>
+        <div class="answer">
+		Will had a ton of trouble connecting the app to the backend and using the database. 
+		For example sending Json object with POSTs to post a new message never seemed to work and he is not sure if that’s a problem with his code(most likely)
+		or the backend code, or both. </div>
+
+        <h3>Describe any significant deviations from the UI design discussed in class.</h3>
+        <div class="answer"> Everything is pretty muc hthe same, there is a welcome screen where users can select to login or 
+		signup. If the login they are directed to a screen to enter their username and apssword and when they sign in, they are taken to the 
+		feed where they can post and read messages. For simplicity sakes, we decided to take away the ability to like messages from the feed.
+		To create an account, a suser give their email and should be sent a username and password and they should be added to the database
+		and be given the ability to login.</div>
+
+        <h3>Is the android app appropriately organized into files / classes / packages?</h3>
+        <div class="answer"> All the activities (compose,login,signup... etc) are in a java folder. All the xml documents with the supporting
+		design of the activities are in the layout folder and the maniffest is separate.
+		</div>
+
+        <h3>Are the dependencies in the build.gradle file appropriate? Were there any unexpected dependencies added to the program?</h3>
+        <div class="answer"> Added the dependency for Volley and needed the dependeency for the recycleview.</div>
+
+        <h3>What was the biggest issue that came up in code review of the android app?</h3>
+        <div class="answer">Connecting to the backend. Obviously that includes many sub-issues including issues with heroku, and the bitbucket
+		being a mess so it wasn't easy to look at the code for the backend and build based off of that.</div>
+
+        <h3>What technical debt do you see in the current android app implementation?</h3>
+        <div class="answer">The project is still called phase0.erv318(from evan) so that may be a problem in the future. People
+		after me will have to fix up the code for connecting to the database and registering users becuaes that ended up with a lot of problems.
+		I think the layout of the app and the files are straightforward enough so that people after me will be able to pick up and quickly find where
+		the problems are.</div>
+    </div>
+
+    <div class="dark">
+        <h2>Unit Tests</h2>
+
+        <h3>Are the unit tests for the back-end server complete/satisfactory?
+            If yes, why do you have confidence in your answer.  If not,
+            what's missing?</h3>
+        <div class="answer">We have comprehensive unit testing for each of the backend classes, 
+		however we are still struggling to figure out how to properly implement and test the REST 
+		routes. As such, these are likely not tested as completely as they should be.</div>
+
+        <h3>Are the unit tests for the web front-end complete/satisfactory?
+            If yes, why do you have confidence in your answer.  If not,
+            what's missing?</h3>
+        <div class="answer">Unit tests for the front end are not satisfactory because I am still very confused 
+		about how to implement Jasmine tests and when to do so. Once again, we are having trouble with 
+		testing the REST routes from both ends, and testing the handlebars and UI is either extremely 
+		difficult or impossible.</div>
+
+        <h3>Are the unit tests for the android app complete/satisfactory? If
+            yes, why do you have confidence in your answer.  If not, what's
+            missing?</h3>
+        <div class="answer">No, the unit tests for the android app are not complete 
+		because we have don’t know how to connect the app to our database. 
+		I attempted to test the activities and transitions between them but 
+		the tests are definitely not complete.</div>
+        
+        <h3>What non-unit testing was performed?</h3>
+        <div class="answer">I attempted to utilize instrumented testing for android 
+		and acceptance tests for testing the connection between the web 
+		front end and the database.</div>
+
+        <h3>What difficulties arose due to the use of Espresso?</h3>
+        <div class="answer">Espresso is extremely difficult to learn, especially as I have no experience using android outside of phase 0. 
+		Add onto this the difficulty of implementing the database connection as well as authorization, and our 
+		technical debt far, far outweighs our liabilities as far as testing is concerned.</div>
+    </div>
+
+    <div class="light">
+        <h2>Project-Wide</h2>
+
+        <h3>How well did your team estimate effort?</h3>
+        <div class="answer">Our team estimated that the project will take the majority of our time and 
+		effort to learn everything that the previous programmer did and how to continue from where they left off
+		Therefore, our conclusion that it would take the majority of our time was correct. But even though
+		we correctly estimated the effort needed, I belive that we still didn't have enough time to finish properly
+		finish our part.</div>
+
+        <h3>What techniques (team programming, timelines, group design
+        exercises) did you use to mitigate risk?</h3>
+        <div class="answer">In order to mitigate the risk of this problem, we assigned people who were
+		working closely together with each other in phase1. This is because it makes their jobs much easier
+		because they understand what each other was trying to do with their code. Therefore, they can easily write code
+		that works well with each other. Another thing we did to minimize the risk is to meet with the group early and 
+		assign roles early so that we can all have as much time as possible to work on the project..</div>
+
+        <h3>Were there any team issues that arose?</h3>
+        <div class="answer">As a group, we worked very well together and are having no problems working together effectivly.
+		If any of us needed any clarification on a part, the person from the previous phase was more than happy to help clear
+		any confusion that was created.</div>
+
+        <h3>Describe the most significant obstacle or difficulty your team
+        faced.</h3>
+        <div class="answer">The most significant obstacle that our team faces is the fact that we are not sure how to connect the 
+		web-end, android, and the backend together. This problem has been plaquing us since the beginning and still continues to
+		to haunt us since we aren't able to truly test whether or not the code we wrote actually does what is intended. This is doesn't
+		affect the tester as much but still has a significant impact on him.</div>
+
+        <h3>What is your biggest concern as you think ahead to the next phase
+        of the project?</h3>
+        <div class="answer">As we think ahead to the next phase, the biggest concern that I have is the 
+		problem that I am very concerned about is the fact that nobody knows how to implement the 
+		database with all the other roles in the project</div>
+    </div>
+
+</body>
+
+</html>

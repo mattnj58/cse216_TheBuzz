@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/wilsil/Downloads/drafts 3/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/wilsil/.android/build-cache/37da56d3dadc0782031e8fb02fd786b5b43a3527/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/wilsil/cse216_ravenclaw/phase2-android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/wilsil/.android/build-cache/37da56d3dadc0782031e8fb02fd786b5b43a3527/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/wilsil/Downloads/drafts 3/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/wilsil/.android/build-cache/37da56d3dadc0782031e8fb02fd786b5b43a3527/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/wilsil/cse216_ravenclaw/phase2-android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/wilsil/.android/build-cache/37da56d3dadc0782031e8fb02fd786b5b43a3527/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

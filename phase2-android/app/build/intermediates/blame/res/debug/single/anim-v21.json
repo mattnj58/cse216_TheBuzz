@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/wilsil/Downloads/drafts 3/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/wilsil/.android/build-cache/fc726ae906f07f0f25edcf3dcbda2a7fe76d115a/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/wilsil/cse216_ravenclaw/phase2-android/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/wilsil/.android/build-cache/fc726ae906f07f0f25edcf3dcbda2a7fe76d115a/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/wilsil/cse216_ravenclaw/phase2-android/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/wilsil/.android/build-cache/fc726ae906f07f0f25edcf3dcbda2a7fe76d115a/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/wilsil/Downloads/drafts 3/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/wilsil/.android/build-cache/fc726ae906f07f0f25edcf3dcbda2a7fe76d115a/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    }
+]

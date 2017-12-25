@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="WELCOME TO RAVENCLAW"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Read" />
+
+        <activity
+            android:name=".Compose"
+            android:label="@string/title_activity_compose"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".Signup"
+            android:label="Signup"></activity>
+
+        <activity android:name=".Login"
+            android:label="Login"></activity>
+
+        <activity android:name=".MainActivity"
+            android:label="Feed"></activity>
+
+        <activity android:name=".Comment"
+            android:label="Comment"></activity>
+
+        <activity android:name=".ViewComments"
+            android:label="Comments"></activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,43 @@
+.Title {
+       font-family: impact;
+}
+.box {
+  border: 10px solid black;
+  width: 485px;
+  padding: 8%;
+  margin: auto;
+  background: #ADD8E6;
+}
+#like {
+    background-image: url( 'http://www.clker.com/cliparts/8/7/Y/H/W/e/up-arrow-circle-hi.png' );
+    background-size: 70px 70px;
+    height: 75px;
+    width: 75px;
+}
+#dislike {
+    background-image: url( 'http://www.clker.com/cliparts/y/m/X/o/s/R/down-arrow-circle-hi.png' );
+    background-size: 70px 70px;
+    height: 75px;
+    width: 75px;
+}
+
+ul li input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+}
+
+ul li:hover label{
+   color: #FFFFFF;
+}
+ul li:hover .check {
+  border: 5px solid #FFFFFF;
+}
+input[type=radio]:checked ~ .check {
+  border: 5px solid #000059;
+}
+input[type=radio]:checked ~ .check::before{
+  background: #000059;
+}
+input[type=radio]:checked ~ label{
+  color: #000059;
+}

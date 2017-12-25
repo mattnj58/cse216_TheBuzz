@@ -1,0 +1,243 @@
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Phase 1 Project Manager Report - Ravenclaw</title>
+    <style>
+        body {
+            font-family: Roboto;
+        }
+        
+        div.answer {
+            border: solid 1px black;
+            width: 100%;
+            min-height: 15em;
+        }
+        
+        div.light {
+            background-color: lightgray;
+        }
+        
+        div.dark {
+            background-color: darkgray;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSE 216 Project Manager Report: Phase 1, Team Ravenclaw</h1>
+    <h3>List your team members, providing name, email, and role for this project.</h3>
+    <div class="answer">
+    	<table style="border:1">
+    		<tr>
+    			<th>Name</th>
+    			<th>Email</th>
+    			<th>Role</th>
+    		</tr>
+    		<tr>
+    			<td>Derek Huber</td>
+    			<td>djh219</td>
+    			<td>Project Manager</td>
+    		</tr>
+    		<tr>
+    			<td>Matt Wong</td>
+    			<td>myw219</td>
+    			<td>Backend</td>
+    		</tr>
+    		<tr>
+    			<td>Will Silverstein</td>
+    			<td>wes219</td>
+    			<td>Web</td>
+    		</tr>
+    		<tr>
+    			<td>Evan Vomund</td>
+    			<td>erv318</td>
+    			<td>Android</td>
+    		</tr>
+    		<tr>
+    			<td>Ben Cohen</td>
+    			<td>bec617</td>
+    			<td>Testing</td>
+    		</tr>
+    	</table>
+    			</div>
+
+    <div class="light">
+        <h2>Back-End Server</h2>
+
+        <h3>Describe the REST API endpoints that your team agreed to implement. If this deviates significantly from class discussion,
+            explain why.</h3>
+        <div class="answer">We decided to implement the same REST routes as discussed in class, which includes two GET routes
+        for all messages as well as individual messages, a POST route for adding a new message to the database, and two
+        PUT routes for likes and dislikes.</div>
+
+        <h3>Describe the Data Model that your team agreed to implement. If this deviates significantly from class discussion,
+            explain why.</h3>
+        <div class="answer">We used the same data model as discussed in class. The frontend sends data to the backend
+        using a JSON string, and the backend processes that data and sends the result back using the routes described above.</div>
+
+        <h3>Does the back-end match the description above? Why or why not?</h3>
+        <div class="answer">The backend was designed with the description above in mind, and is formatted as such. It does not,
+        however, work.</div>
+
+        <h3>Is the back-end code appropriately organized into files / classes / packages?</h3>
+        <div class="answer">Aside from various issues with Git, the backend is appropriately organized.</div>
+
+        <h3>Are variables, functions, classes and packages named well?</h3>
+        <div class="answer">Yes, everything is named well, and names correspond to the actual function of the variable/method/class</div>
+
+        <h3>Are the dependencies in the pom.xml file appropriate? Were there any unexpected dependencies added to the program?</h3>
+        <div class="answer">The dependencies include junit for testing, spark for backend-frontend communication, mysql for connecting
+        to the database, and gson for creating JSON strings. No unexpected dependencies were added.</div>
+
+        <h3>What was the biggest issue that came up in code review of the back-end server?</h3>
+        <div class="answer">The backend runs into errors when trying to connect to the database.</div>
+
+        <h3>What technical debt do you see in the current back-end server implementation?</h3>
+        <div class="answer">It does not work as intended, which will cause a lot of headache in future parts.</div>
+    </div>
+
+    <div class="dark">
+        <h2>Web Front-End</h2>
+
+        <h3>Is the build and deploy process appropriate for the web front-end?</h3>
+        <div class="answer">Yes, the build and deploy process is appropriate.</div>
+
+        <h3>What benefits did you observe on account of the use of TypeScript?</h3>
+        <div class="answer">Typescript is useful because it shows compiler errors when we make typos. This makes it
+        much easier to debug our code because we do not have to spend hours searching for a misplaced bracket
+        or semicolon. The inclusion of data types beyond simple "var"s also makes Typescript more powerful and easier to
+        implement.</div>
+
+        <h3>How was the user interface designed? Why did the team settle on the design that is present in the code?</h3>
+        <div class="answer">The interface is a vertical list of messages. The user can like or dislike messages using a 
+        radial button, and the number of likes/dislikes is displayed on the page. In the upper left corner of the page, 
+        a user can add a title/message and post it to the list.</div>
+
+        <h3>Is the web front-end appropriately organized into files / classes / packages?</h3>
+        <div class="answer">Within the source directory, we have an index.html file as well as a style.css file. Also, 
+        we have a raven.ts (TypeScript) file that compiles into a JavaScript file: raven.js. Finally we have a package.json
+        that handles dependencies. </div>
+
+        <h3>Are variables, functions, classes and packages named well?</h3>
+        <div class="answer">Files are named using standard HTML/CSS syntax. Variable and function names are logical and
+        representative of their purposes.</div>
+
+        <h3>Are the dependencies in the package.json file appropriate? Were there any unexpected dependencies added to the program?</h3>
+        <div class="answer">The package.json file contains all of the default dependencies. No unexpected dependencies had to be added.</div>
+
+        <h3>What was the biggest issue that came up in code review of the web front-end?</h3>
+        <div class="answer">We are still having issues with connecting the web front end to the backend database and
+        managing the dependencies between them.</div>
+
+        <h3>What technical debt do you see in the current web front-end implementation?</h3>
+        <div class="answer">The frontend does not properly connect to the database, which will be a serious problem moving forward.</div>
+    </div>
+
+    <div class="light">
+        <h2>Android App</h2>
+
+        <h3>What difficulties arose during the conversion from ListView to RecyclerView?</h3>
+        <div class="answer">The biggest mistake we made was doing the initial programming in Listview and later converting
+        to RecyclerView. We thought that it would be a simple translation, but it actually required a complete reworking of
+        the main activity class.</div>
+
+        <h3>Are the mechanisms for moving among Activities satisfactory and appropriate?</h3>
+        <div class="answer">We believe so. We used a Datum Adapter to allow us to move between the main activity, the compose
+        screen, and the read screen. We also implemented a Parcelable object, which will make it easier to move data from
+        one activity to another.</div>
+
+        <h3>Describe any significant deviations from the UI design discussed in class.</h3>
+        <div class="answer">The general UI design is relatively unchanged from that discussed in class. We have a list of
+        messages, with an add button at the bottom and separate activities for viewing and composing messages. We used a linear
+        layout to display messages.</div>
+
+        <h3>Is the android app appropriately organized into files / classes / packages?</h3>
+        <div class="answer">We have three activities and one adapter with a nested viewholder class within it. All
+        variables and functions have appropriate names that accurately correspond to their purposes.</div>
+
+        <h3>Are variables, functions, classes and packages named well?</h3>
+        <div class="answer">Yes, everything is appropriately named and makes sense.</div>
+
+        <h3>Are the dependencies in the build.gradle file appropriate? Were there any unexpected dependencies added to the program?</h3>
+        <div class="answer">The only dependency added aside from the default was one that allowed us to implement RecyclerView
+        and one for android:support
+        </div>
+
+        <h3>What was the biggest issue that came up in code review of the android app?</h3>
+        <div class="answer">Overall, the android app works as intended, but this is after a major retooling trying to switch
+        from listview to recyclerview. Additionally, there is a potential issue where the app may not run properly without
+        a "draft" folder. This will likely not be a problem, but the draft folder has been added to the repository just in case.</div>
+
+        <h3>What technical debt do you see in the current android app implementation?</h3>
+        <div class="answer">We had to deal with our own technical debt when we had to convert from ListView to RecyclerView
+        at the end. This required much more work than we had anticipated.</div>
+    </div>
+
+    <div class="dark">
+        <h2>Unit Tests</h2>
+
+        <h3>Are the unit tests for the back-end server complete/satisfactory? If yes, why do you have confidence in your answer.
+            If not, what's missing?</h3>
+        <div class="answer">Unit tests for the backend offer complete code covererage, but do not tackle edge cases or
+        exceptions.</div>
+
+        <h3>Are the unit tests for the web front-end complete/satisfactory? If yes, why do you have confidence in your answer.
+            If not, what's missing?</h3>
+        <div class="answer">Unit tests for the front end test for whether a message is being shown, and whether an alert
+        is being triggered, but does not test for the REST routes.</div>
+
+        <h3>What challenges did you observe in the way that the web front-end is being tested? Is Jasmine providing satisfactory
+            code coverage?</h3>
+        <div class="answer">Jasmine was very challenging because none of us had ever used it before, and it is difficult
+        to specify specifically what we need to test on the front end.</div>
+
+        <h3>What challenges did you observe on account of the relationship between the database and the server? Was mocking used
+            to separate tests? Why or why not?</h3>
+        <div class="answer">Testing the backend required absolute knowledge of all the technologies, lamdas, and methods that
+        the backend developer was using, down to the names of the individual functions and what parameters were passed.
+        We would have loved to implement mocking to be able to more easily test the backend, but were simply unable to figure out
+        how to do so.</div>
+
+        <h3>What was the biggest issue that came up in code review of the testing?</h3>
+        <div class="answer">The biggest issue with our tests is a general disconnect between the tests and the backend/frontend
+        code that they are supposed to be unit testing. This was made much worse because extenuating circumstances meant
+        the tester could not meet with the rest of the team during the last several days of the project.</div>
+    </div>
+
+    <div class="light">
+        <h2>Project-Wide</h2>
+
+        <h3>Were any difficulties encountered when generating documentation for the Java and TypeScript code?</h3>
+        <div class="answer">Not particularly. The JavaDoc tool in IntelliJ was not as straightforward to use
+        as we had hoped, though.</div>
+
+        <h3>Were there any issues with the use of git for source control?</h3>
+        <div class="answer">We have experienced a lot of issues with team members accidentally committing to multiple branches
+        or generally committing files that they didn't mean to commit, and not knowing how to remove them from the repository.
+        As a result we have a lot of redundancy and some files (such as the jasmine tests) are hard to find deep within
+        unintuitive file structures. </div>
+
+        <h3>Were there any team issues that arose?</h3>
+        <div class="answer">Aside from a general lack of understanding of many of the parts and how they are supposed to
+        work together, no. Overall coordination and planning has leaved much to be desired, especially when the tester
+        had to leave the state for a family emergency and couldn't meet for the last several days of the project.</div>
+
+        <h3>How did the amount of time your teammates spent compare to the amount of time you thought the tasks would take?</h3>
+        <div class="answer">We expected to spend a very long time staring at our computers having no idea what to do, and
+        that's exactly what happened.</div>
+
+        <h3>Describe the most significant obstacle or difficulty your team faced.</h3>
+        <div class="answer">The most significant obstacle we faced was getting the backend and frontend to communicate with one
+        another. Additionally, it was very very difficult to have full and complete test coverage because the tester was
+        unable to meet with the rest of the group in person due to outstanding circumstances.</div>
+
+        <h3>What is your biggest concern as you think ahead to the next phase of the project?</h3>
+        <div class="answer">Our biggest concern is that our issues with frontend/backend communication will hold us back
+        and make it difficult to move forward with the next steps of the project. Additionally, our git/file system is a
+        bit of a disaster, as no one really knows which files are supposed to go where.</div>
+    </div>
+
+</body>
+
+</html>

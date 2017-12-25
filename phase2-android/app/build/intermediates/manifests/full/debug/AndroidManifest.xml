@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="WELCOME TO RAVENCLAW"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle.Welcome" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle.Read" />
+        <activity
+            android:name="edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle.Compose"
+            android:label="@string/title_activity_compose"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle.Signup"
+            android:label="Signup" />
+        <activity
+            android:name="edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle.Login"
+            android:label="Login" />
+        <activity
+            android:name="edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle.MainActivity"
+            android:label="Feed" />
+        <activity
+            android:name="edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle.Comment"
+            android:label="Comment" />
+        <activity
+            android:name="edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle.ViewComments"
+            android:label="Comments" />
+    </application>
+
+</manifest>

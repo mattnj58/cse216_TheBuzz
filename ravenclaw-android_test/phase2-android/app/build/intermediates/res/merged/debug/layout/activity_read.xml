@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle.Read">
+    <!--relative layout, linear-->
+    <TextView
+        android:textSize="35sp"
+        android:id="@+id/titleOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_horizontal"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/bodyOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/dislikes"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <TextView
+        android:id="@+id/likes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleOut"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Likes:\:"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <TextView
+        android:id="@+id/likesOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/titleOut"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="71dp"
+        android:layout_marginLeft="39dp" />
+
+    <TextView
+        android:id="@+id/dislikes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/likes"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Disikes:\:"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <TextView
+        android:id="@+id/dislikesOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/likes"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="71dp"
+        android:layout_marginLeft="50dp" />
+
+    <TextView
+        android:id="@+id/dateOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/titleOut"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="71dp"
+        android:gravity="right"
+        android:layout_marginRight="30dp" />
+
+    <Button android:id="@+id/btn_comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="New Comment"
+        android:gravity="center"
+        android:textSize="16sp"/>
+
+    <Button android:id="@+id/btn_opencomment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+        android:text="View Comments"
+        android:layout_alignParentBottom="true"
+        android:textSize="16sp"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/arrow_up_float" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/arrow_down_float" />
+
+</RelativeLayout>

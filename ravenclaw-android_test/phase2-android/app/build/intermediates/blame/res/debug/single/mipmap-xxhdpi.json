@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/wilsil/Downloads/drafts 3/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/wilsil/Downloads/drafts 3/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/wilsil/cse216_ravenclaw/phase2-android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]

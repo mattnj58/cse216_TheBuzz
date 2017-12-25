@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle.Login">
+
+
+
+    <!--  Name Label -->
+    <EditText android:id="@+id/input_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp"/>
+
+
+    <!-- Password Label -->
+    <EditText android:id="@+id/input_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:singleLine="false"
+        android:layout_below="@+id/input_user"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="67dp"/>
+
+    <Button android:id="@+id/button_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="LOG IN"
+        android:layout_below="@+id/input_pass"
+        android:gravity="center"
+        android:textSize="16sp"/>
+
+    <Button android:id="@+id/button_signup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Not a member? Sign up!"
+        android:layout_below="@+id/button_login"
+        android:gravity="center"
+        android:textSize="16sp"/>
+
+
+</RelativeLayout>

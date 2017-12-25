@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head><title>TypeScript Greeter</title></head>
+<body>
+<script src="raven.js"></script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RavenClaw</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="src=raven.js"></script>
+<body>
+<div class = "Title">
+    <h1>RavenClaw</h1>
+</div>
+
+<form>
+  Title:<br>
+  <input type="text" id = "title" name="firstname"><br>
+  Message:<br>
+  <input type="text" id = "message" name="lastname"><br><br>
+  <input type="submit" onclick = "submitButton()" value="Post">
+</form>
+
+
+<div class="box">
+    <h2>MESSAGE TITLE</h1>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mi ligula, aliquet eget libero non, lobortis sagittis odio. Sed in ligula sit amet nunc aliquet consequat in ut urna. Vestibulum vel ullamcorper nisl. Sed volutpat, nulla ut posuere condimentum, sem massa accumsan purus, ut semper lectus lectus vitae dolor. Nam commodo erat augue. Suspendisse a lacus ligula. Sed suscipit dui ut est blandit lacinia. Curabitur at arcu neque.</h5>
+        <form>
+            <input type="radio" onclick="like()" name="gender" value="like"> Like<br>
+            <input type="radio" onclick="dislike()" name="gender" value="dislike"> Dislike
+        </form>
+</div>
+<div class="box">
+    <h2>MESSAGE TITLE</h1>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mi ligula, aliquet eget libero non, lobortis sagittis odio. Sed in ligula sit amet nunc aliquet consequat in ut urna. Vestibulum vel ullamcorper nisl. Sed volutpat, nulla ut posuere condimentum, sem massa accumsan purus, ut semper lectus lectus vitae dolor. Nam commodo erat augue. Suspendisse a lacus ligula. Sed suscipit dui ut est blandit lacinia. Curabitur at arcu neque.</h5>
+        <form>
+            <input type="radio" onclick="like()" name="gender" value="like"> Like<br>
+            <input type="radio" onclick="dislike()" name="gender" value="dislike"> Dislike
+        </form>
+</div>
+<div class="box">
+    <h2>MESSAGE TITLE</h1>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mi ligula, aliquet eget libero non, lobortis sagittis odio. Sed in ligula sit amet nunc aliquet consequat in ut urna. Vestibulum vel ullamcorper nisl. Sed volutpat, nulla ut posuere condimentum, sem massa accumsan purus, ut semper lectus lectus vitae dolor. Nam commodo erat augue. Suspendisse a lacus ligula. Sed suscipit dui ut est blandit lacinia. Curabitur at arcu neque.</h5>
+        <form>
+            <input type="radio" onclick="like()" name="gender" value="like"> Like<br>
+            <input type="radio" onclick="dislike()" name="gender" value="dislike"> Dislike
+        </form>
+</div>
+<div class="box">
+    <h2>MESSAGE TITLE</h1>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mi ligula, aliquet eget libero non, lobortis sagittis odio. Sed in ligula sit amet nunc aliquet consequat in ut urna. Vestibulum vel ullamcorper nisl. Sed volutpat, nulla ut posuere condimentum, sem massa accumsan purus, ut semper lectus lectus vitae dolor. Nam commodo erat augue. Suspendisse a lacus ligula. Sed suscipit dui ut est blandit lacinia. Curabitur at arcu neque.</h5>
+        <form>
+            <input type="radio" onclick="like()" name="gender" value="like"> Like<br>
+            <input type="radio" onclick="dislike()" name="gender" value="dislike"> Dislike
+        </form>
+</div>
+<div class="box">
+    <h2>MESSAGE TITLE</h1>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mi ligula, aliquet eget libero non, lobortis sagittis odio. Sed in ligula sit amet nunc aliquet consequat in ut urna. Vestibulum vel ullamcorper nisl. Sed volutpat, nulla ut posuere condimentum, sem massa accumsan purus, ut semper lectus lectus vitae dolor. Nam commodo erat augue. Suspendisse a lacus ligula. Sed suscipit dui ut est blandit lacinia. Curabitur at arcu neque.</h5>
+        <form>
+            <input type="radio" onclick="like()" name="gender" value="like"> Like<br>
+            <input type="radio" onclick="dislike()" name="gender" value="dislike"> Dislike
+        </form>
+</div>
+<div class="box">
+    <h2>MESSAGE TITLE</h1>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mi ligula, aliquet eget libero non, lobortis sagittis odio. Sed in ligula sit amet nunc aliquet consequat in ut urna. Vestibulum vel ullamcorper nisl. Sed volutpat, nulla ut posuere condimentum, sem massa accumsan purus, ut semper lectus lectus vitae dolor. Nam commodo erat augue. Suspendisse a lacus ligula. Sed suscipit dui ut est blandit lacinia. Curabitur at arcu neque.</h5>
+        <form>
+            <input type="radio" onclick="like()" name="gender" value="like"> Like<br>
+            <input type="radio" onclick="dislike()" name="gender" value="dislike"> Dislike
+        </form>
+</div>
+<!-- <div>
+    <label for="new_val1">Value#1:</label>
+    <input id="new_val1" type="text" />
+    <label for="new_val2">Value#2</label>
+    <input id="new_val2" type="text" />
+    <button id="add_row">Add Row</button>
+ </div> -->
+<div id="listing"></div>
+</body>
+<!--
+<script>
+
+   $(document).ready(function () {
+      $("#dislike").click(function (event){
+      document.getElementById("disCheck").click(); // Click on the checkbox
+      });
+      $("#like").click(function (event){
+      document.getElementById("likeCheck").click(); // Click on the checkbox
+      });
+      });
+</script>
+-->
+</html>

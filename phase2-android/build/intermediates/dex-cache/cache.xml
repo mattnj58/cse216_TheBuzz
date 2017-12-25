@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt Wong\.android\build-cache\724747776420b9d1a1c6df905dfa44b5fe59be34\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7da84426d876216ed4cdddd85e739be5ecabdd04">
+        <dex dex="C:\Users\Matt Wong\Lehigh\cse216_ravenclaw\phase2-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6e1d79a70fdccdeffe945d85f36872fcc529dbf8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt Wong\.android\build-cache\b260ddc99b89e96277fdfd9b4ae8cfd33c285541\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="C:\Users\Matt Wong\Lehigh\cse216_ravenclaw\phase2-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_23073ae9e3bd3a2db4eb434ae3ea80bc2d7628df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt Wong\Lehigh\cse216_ravenclaw\phase2-android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Matt Wong\Lehigh\cse216_ravenclaw\phase2-android\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_913510f71913cd8a0b2d3bd340c25207e24fc226\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt Wong\.android\build-cache\87e5477fe31ae36585bbd99cd63cd5662034d1bd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="C:\Users\Matt Wong\Lehigh\cse216_ravenclaw\phase2-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f55ee05deb02871d514fac5c122bf85f1338384a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt Wong\.android\build-cache\30023ee0327419bf19709b4e43587f4100857752\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="C:\Users\Matt Wong\Lehigh\cse216_ravenclaw\phase2-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ec23886389c7e80ddf27380873fe2e46c73016bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt Wong\.android\build-cache\ecd08a432ca5dfe005fc080169e61952464e2e90\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="C:\Users\Matt Wong\Lehigh\cse216_ravenclaw\phase2-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_29f80906bb3d7cc3e80b90c49cf6373f8debac78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt Wong\.android\build-cache\a5bdfe4d168ded82bef5775187e3f4d2ffd27b69\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="C:\Users\Matt Wong\Lehigh\cse216_ravenclaw\phase2-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e5d4d051fa51a94c6d04bcf169585f83e5a7fa00\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt Wong\.android\build-cache\c3688d822b57ceafcc4540823e4d1e7242e5a39a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a23185c9b1c100e7d1a32275017e4712e31c796">
+        <dex dex="C:\Users\Matt Wong\Lehigh\cse216_ravenclaw\phase2-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f541b275c1e15a158c857d7a73cb32f61b21b457\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt Wong\.android\build-cache\e0b0404cb1a9c274c388bab58da1de22fa20c192\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="C:\Users\Matt Wong\Lehigh\cse216_ravenclaw\phase2-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ba62bb985cff0ba150b13e845f168956021b36b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt Wong\Lehigh\cse216_ravenclaw\phase2-android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3cadbe0681babc7a6083ec5a6533b23f27a0a9aa">
+        <dex dex="C:\Users\Matt Wong\Lehigh\cse216_ravenclaw\phase2-android\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0c3078d849ff804746b47a1a186f5e22802c3fea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt Wong\.android\build-cache\82fa59bcd26a3e4e137c82aafc8f5bc587d226dd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="C:\Users\Matt Wong\Lehigh\cse216_ravenclaw\phase2-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bbf301aa2320b2e9b2c000f9bd3a24f35d022dd2\classes.dex" />
+    </item>
+
+</items>

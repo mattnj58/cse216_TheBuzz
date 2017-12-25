@@ -1,0 +1,30 @@
+class Post {
+
+title:string;
+message: string;
+
+constructor(title: string, message: string) {
+this.title = title;
+this.message = message;
+}
+}
+
+let numLikes: number = 0;
+function like(){
+numLikes = numLikes + 1;
+alert(numLikes)
+}
+
+
+let numDisLikes: number = 0;
+function dislike() {
+numDisLikes = numDisLikes + 1;
+    alert(numDisLikes);
+}
+
+function submitButton() {
+let t: string = (<HTMLInputElement>document.getElementById("title").title);
+let m: string  = (<HTMLInputElement>document.getElementById("message")).title;
+alert(t);
+console.log(m);
+}

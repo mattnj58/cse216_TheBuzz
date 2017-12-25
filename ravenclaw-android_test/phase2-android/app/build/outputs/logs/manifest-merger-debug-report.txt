@@ -1,0 +1,122 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:3:5-79
+		INJECTED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:5:5-41:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] /Users/wilsil/.android/build-cache/306c2328e58169fabf225c4bda57b504bdc81070/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.1.1] /Users/wilsil/.android/build-cache/fc726ae906f07f0f25edcf3dcbda2a7fe76d115a/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/wilsil/.android/build-cache/37da56d3dadc0782031e8fb02fd786b5b43a3527/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/wilsil/.android/build-cache/1af3bef9627743c26aa8910b6cc4666ba99e6f2e/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/wilsil/.android/build-cache/3ec387a212068d9b9e46f00b1fea1ea9ddcebd23/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.1.1] /Users/wilsil/.android/build-cache/fc9f44e193f7fa92c18e87cee38ded10daf5f17c/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.1.1] /Users/wilsil/.android/build-cache/d379898eda18711bb41fb597900c7113fee16aac/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] /Users/wilsil/.android/build-cache/6e002e4208859084a11734d27f4d217b9f793303/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] /Users/wilsil/.android/build-cache/51e0a7daffedc479fc6db77016be835899bf50cb/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] /Users/wilsil/.android/build-cache/01fd7aa5b3454cfe8f63b5a30dd6d5c206935b97/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] /Users/wilsil/.android/build-cache/3ef08ae37f770e55247d8ef630e8f29ce49f892d/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.1] /Users/wilsil/.android/build-cache/3c5164f4eab6baa2bf193c93970df31025e3b81d/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.volley:volley:1.0.0] /Users/wilsil/.android/build-cache/775c662ebc420c028c6a49f05b3c2b84b31e1b1e/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:8:9-45
+	android:supportsRtl
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:11:9-40
+activity#edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle.Welcome
+ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:12:19-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:16:27-74
+activity#edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle.Read
+ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:19:9-42
+	android:name
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:19:19-39
+activity#edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle.Compose
+ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:21:9-24:68
+	android:label
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:23:13-59
+	android:theme
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:24:13-56
+	android:name
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:22:13-36
+activity#edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle.Signup
+ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:26:9-27:47
+	android:label
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:27:13-35
+	android:name
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:26:19-41
+activity#edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle.Login
+ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:29:9-30:46
+	android:label
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:30:13-34
+	android:name
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:29:19-40
+activity#edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle.MainActivity
+ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:32:9-33:45
+	android:label
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:33:13-33
+	android:name
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:32:19-47
+activity#edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle.Comment
+ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:35:9-36:48
+	android:label
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:36:13-36
+	android:name
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:35:19-42
+activity#edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle.ViewComments
+ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:38:9-39:49
+	android:label
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml:38:19-47
+uses-sdk
+INJECTED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] /Users/wilsil/.android/build-cache/306c2328e58169fabf225c4bda57b504bdc81070/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.1.1] /Users/wilsil/.android/build-cache/fc726ae906f07f0f25edcf3dcbda2a7fe76d115a/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/wilsil/.android/build-cache/37da56d3dadc0782031e8fb02fd786b5b43a3527/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/wilsil/.android/build-cache/1af3bef9627743c26aa8910b6cc4666ba99e6f2e/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/wilsil/.android/build-cache/3ec387a212068d9b9e46f00b1fea1ea9ddcebd23/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.1.1] /Users/wilsil/.android/build-cache/2b39a81ca7f41faa5f07f0b174d3fbb734248d58/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.1.1] /Users/wilsil/.android/build-cache/fc9f44e193f7fa92c18e87cee38ded10daf5f17c/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.1.1] /Users/wilsil/.android/build-cache/d379898eda18711bb41fb597900c7113fee16aac/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] /Users/wilsil/.android/build-cache/6e002e4208859084a11734d27f4d217b9f793303/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] /Users/wilsil/.android/build-cache/51e0a7daffedc479fc6db77016be835899bf50cb/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.1] /Users/wilsil/.android/build-cache/01fd7aa5b3454cfe8f63b5a30dd6d5c206935b97/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.1] /Users/wilsil/.android/build-cache/3ef08ae37f770e55247d8ef630e8f29ce49f892d/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.1] /Users/wilsil/.android/build-cache/3c5164f4eab6baa2bf193c93970df31025e3b81d/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.volley:volley:1.0.0] /Users/wilsil/.android/build-cache/775c662ebc420c028c6a49f05b3c2b84b31e1b1e/output/AndroidManifest.xml:7:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.1.1] /Users/wilsil/.android/build-cache/fc726ae906f07f0f25edcf3dcbda2a7fe76d115a/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wilsil/cse216_ravenclaw/phase2-android/app/src/main/AndroidManifest.xml

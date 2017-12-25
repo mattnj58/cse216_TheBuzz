@@ -1,0 +1,22 @@
+{
+  "name": "cse216_ravenclaw",
+  "version": "1.0.0",
+  "description": "package-json",
+  "main": "index.js",
+  "scripts": {
+    "test": "test command"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://WillSilverstone@bitbucket.org/mspear/cse216_ravenclaw.git"
+  },
+  "keywords": [
+    "ravenclaw"
+  ],
+  "author": "ravenclaw",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/mspear/cse216_ravenclaw#readme"
+  "dependencies": {
+    "jquery": "~2.1.0"
+  }
+}

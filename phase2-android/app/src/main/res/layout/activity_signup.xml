@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.lehigh.cse216.phase0.android.erv318.ravenclaw_androidrecycle.Signup">
+
+
+    <Button android:id="@+id/link_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Already a member? Login"
+        android:gravity="center"
+        android:textSize="16sp"/>
+
+
+    <!--  Name Label -->
+    <EditText android:id="@+id/input_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:layout_below="@+id/link_login"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp"/>
+
+    <!-- Email Label -->
+
+    <EditText android:id="@+id/input_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:singleLine="false"
+        android:layout_below="@+id/input_name"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="47dp"/>
+
+    <!-- Password Label -->
+    <EditText android:id="@+id/input_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:singleLine="false"
+        android:layout_below="@+id/input_email"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="67dp"/>
+
+    <Button android:id="@+id/link_signup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Sign-Up"
+        android:layout_below="@+id/input_password"
+        android:gravity="center"
+        android:textSize="16sp"/>
+
+
+</RelativeLayout>
